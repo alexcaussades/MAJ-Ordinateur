@@ -1,5 +1,5 @@
-import requests
-import json
+#!/usr/bin/python3
+# Importation des modules
 import os
 import modules.terminal as terminal
 import modules.winget as winget
@@ -10,6 +10,8 @@ import modules.info_pc as info_pc
 print("Hello "+ os.getlogin() + " !" )
 print("Go de RAM disponible: "+ info_pc.get_available_ram())
 print("Vote processeur: "+ info_pc.get_processor_name())
+
+
 
 winget.verify_install_winget()
 winget.export()

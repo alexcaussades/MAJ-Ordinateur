@@ -1,7 +1,6 @@
 import psutil
 import platform
 import os
-import winreg
 
 
 def get_available_ram():

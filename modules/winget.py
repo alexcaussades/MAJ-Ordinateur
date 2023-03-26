@@ -1,9 +1,4 @@
 import os
-import platform
-import re
-import requests
-import sys
-import winreg
 import json
 import time
 

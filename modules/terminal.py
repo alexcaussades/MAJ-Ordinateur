@@ -1,9 +1,7 @@
 import requests
-import json
 import os
 import platform
 import re
-import sys
 import winreg
 
 # Installation automatique du nouveau terminal (si besoin) via les commandes suivantes : avec ULR https://github.com/microsoft/terminal/releases
