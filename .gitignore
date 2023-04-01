@@ -1,0 +1,4 @@
+.env
+winget_Export.json
+modules/__pycache__
+users.txt
